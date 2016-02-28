@@ -23,6 +23,7 @@ For more information, please see:
  * http://lars.mec.ua.pt/public/Media/ResearchDevelopmentProjects/HaarFeatures_RoadFilms/HaarFeaturesTests/
 
 Additional informations:
+* Check if your OpenCV is installed at: C:\OpenCV2.4.10
 * There is a Visual Studio 2013 template project in the **vs2013/** folder. Open it in the Visual Studio IDE and select [Release]-[Win32] or [Release]-[x64] mode. Next, click on **run_vehicle_detection.bat** and enjoy!
 
 Release Notes:
