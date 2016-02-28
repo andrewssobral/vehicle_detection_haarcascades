@@ -1,0 +1,9 @@
+vs2013/Win32/
+vs2013/x64/
+tmp/
+*.exe
+*.suo
+*.sdf
+*.pdb
+*.opensdf
+*.opendb
