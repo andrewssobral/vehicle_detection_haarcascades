@@ -1,5 +1,11 @@
 # Vehicle Detection with Haar Cascades
 
+<p align="center">
+<a href="https://www.youtube.com/watch?v=c4LobbqeKZc" target="_blank">
+<img src="https://sites.google.com/site/andrewssobral/vehicle_detection_haarcascades.png" border="0" />
+</a>
+</p>
+
 The haar-cascade cars3.xml was trained using 526 images of cars from the rear (360 x 240 pixels, no scale).
 The images were extracted from the Car dataset proposed by Brad Philip and Paul Updike taken of the freeways of southern California.
  
@@ -15,3 +21,10 @@ For more information, please see:
 * Some additional resources:
  * http://lars.mec.ua.pt/public/Media/ResearchDevelopmentProjects/HaarFeatures_RoadFilms/HaarFeaturesTests/CarsRear/
  * http://lars.mec.ua.pt/public/Media/ResearchDevelopmentProjects/HaarFeatures_RoadFilms/HaarFeaturesTests/
+
+Additional informations:
+* There is a Visual Studio 2013 template project in the **vs2013/** folder. Open it in the Visual Studio IDE and select [Release]-[Win32] or [Release]-[x64] mode. Next, click on **run_vehicle_detection.bat** and enjoy!
+
+Release Notes:
+* Version 1.0.0:
+First version.
