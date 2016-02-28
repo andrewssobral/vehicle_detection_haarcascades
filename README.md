@@ -6,7 +6,7 @@
 </a>
 </p>
 
-The haar-cascade cars3.xml was trained using 526 images of cars from the rear (360 x 240 pixels, no scale).
+The haar-cascade **cars.xml** was trained using 526 images of cars from the rear (360 x 240 pixels, no scale).
 The images were extracted from the Car dataset proposed by Brad Philip and Paul Updike taken of the freeways of southern California.
  
 For more information, please see:
