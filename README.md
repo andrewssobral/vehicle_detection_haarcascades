@@ -39,14 +39,18 @@ For Linux users
 * For Linux and Mac users, a Makefile is provided to compile the source code.
 * * Requirements: OpenCV 2.4.x (it only works with this version).
 * * Check out the latest project source code and compile it:
-```~/git clone https://github.com/andrewssobral/vehicle_detection_haarcascades.git ```
-```~/cd vehicle_detection_haarcascades ```
-```~/vehicle_detection_haarcascades/cd build ```
-```~/vehicle_detection_haarcascades/build/ cmake .. ```
-```~/vehicle_detection_haarcascades/build/ make ```
+```
+~/git clone https://github.com/andrewssobral/vehicle_detection_haarcascades.git
+~/cd vehicle_detection_haarcascades
+~/vehicle_detection_haarcascades/cd build
+~/vehicle_detection_haarcascades/build/ cmake ..
+~/vehicle_detection_haarcascades/build/ make
+```
 * * Run demos:
-```~/vehicle_detection_haarcascades/run_vehicle_detection_video1.sh ```
-```~/vehicle_detection_haarcascades/run_vehicle_detection_video2.sh ```
+```
+~/vehicle_detection_haarcascades/run_vehicle_detection_video1.sh
+~/vehicle_detection_haarcascades/run_vehicle_detection_video2.sh
+```
 
 Docker image
 ----------------------------------------
