@@ -48,6 +48,12 @@ For Linux users
 ```~/vehicle_detection_haarcascades/run_vehicle_detection_video1.sh ```
 ```~/vehicle_detection_haarcascades/run_vehicle_detection_video2.sh ```
 
+Docker image
+----------------------------------------
+* Docker image is available at:
+* * **Ubuntu 16.04 + VNC + OpenCV 2.4.13 + Python 2.7 + Vehicle Detection, Tracking and Counting**
+https://hub.docker.com/r/andrewssobral/vehicle_detection_tracking_counting/
+
 Release Notes:
 * Version 1.0.0:
 First version.
