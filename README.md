@@ -42,6 +42,8 @@ For Linux users
 ```
 ~/git clone https://github.com/andrewssobral/vehicle_detection_haarcascades.git
 ~/cd vehicle_detection_haarcascades
+~/vehicle_detection_haarcascades/ chmod +x run_vehicle_detection_video1.sh
+~/vehicle_detection_haarcascades/ chmod +x run_vehicle_detection_video2.sh
 ~/vehicle_detection_haarcascades/cd build
 ~/vehicle_detection_haarcascades/build/ cmake ..
 ~/vehicle_detection_haarcascades/build/ make
@@ -51,6 +53,7 @@ For Linux users
 ~/vehicle_detection_haarcascades/run_vehicle_detection_video1.sh
 ~/vehicle_detection_haarcascades/run_vehicle_detection_video2.sh
 ```
+
 
 Docker image
 ----------------------------------------
