@@ -9,7 +9,7 @@ An easy way to perform vehicle detection is by using Haar Cascades. Currently, I
 
 <p align="center">
 <a href="https://www.youtube.com/watch?v=c4LobbqeKZc" target="_blank">
-<img src="https://sites.google.com/site/andrewssobral/vehicle_detection_haarcascades.png" border="0" />
+<img src="https://raw.githubusercontent.com/andrewssobral/vehicle_detection_haarcascades/master/doc/images/vehicle_detection_haarcascades.png" border="0" />
 </a>
 </p>
 
@@ -23,7 +23,7 @@ For more information, please see:
  * https://github.com/mrnugget/opencv-haar-classifier-training
 
 * Related paper:
- * Oliveira, M.; Santos, V. Automatic Detection of Cars in Real Roads using Haar-like Features ([PDF](https://sites.google.com/site/andrewssobral/Automatic_Detection_of_Cars_in_Real_Roads_using_Haar-like_Features.pdf))
+ * Oliveira, M.; Santos, V. Automatic Detection of Cars in Real Roads using Haar-like Features ([PDF](https://github.com/andrewssobral/vehicle_detection_haarcascades/raw/master/doc/Automatic_Detection_of_Cars_in_Real_Roads_using_Haar-like_Features.pdf))
 
 * Some additional resources:
  * http://lars.mec.ua.pt/public/Media/ResearchDevelopmentProjects/HaarFeatures_RoadFilms/HaarFeaturesTests/CarsRear/
