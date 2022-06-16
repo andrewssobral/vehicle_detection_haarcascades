@@ -1,6 +1,8 @@
 #include <opencv2/opencv.hpp>
 #include <iostream>
 
+using namespace std;
+
 const int KEY_SPACE = 32;
 const int KEY_ESC = 27;
 
@@ -11,7 +13,7 @@ void detect(IplImage *img);
 
 int main(int argc, char** argv)
 {
-  std::cout << "Using OpenCV " << CV_MAJOR_VERSION << "." << CV_MINOR_VERSION << "." << CV_SUBMINOR_VERSION << std::endl;
+  cout << "Using OpenCV " << CV_MAJOR_VERSION << "." << CV_MINOR_VERSION << "." << CV_SUBMINOR_VERSION <<endl;
   
   CvCapture *capture;
   IplImage  *frame;
@@ -19,14 +21,14 @@ int main(int argc, char** argv)
   
   if(argc < 3)
   {
-    std::cout << "Usage " << argv[0] << " cascade.xml video.avi" << std::endl;
+    cout << "Usage " << argv[0] << " cascade.xml video.avi" <<endl;
     return 0;
   }
 
   if(argc == 4)
   {
     input_resize_percent = atoi(argv[3]);
-    std::cout << "Resizing to: " << input_resize_percent << "%" << std::endl;
+    cout << "Resizing to: " << input_resize_percent << "%" <<endl;
   }
 
   cascade = (CvHaarClassifierCascade*) cvLoad(argv[1], 0, 0, 0);
@@ -85,7 +87,7 @@ void detect(IplImage *img)
     img_size //cvSize(70,70)//cvSize(640,480)  //---------MAXSIZE
     );
 
-  std::cout << "Total: " << object->total << " cars detected." << std::endl;
+  cout << "Total: " << object->total << " cars detected." <<endl;
   for(int i = 0 ; i < ( object ? object->total : 0 ) ; i++)
   {
     CvRect *r = (CvRect*)cvGetSeqElem(object, i);
